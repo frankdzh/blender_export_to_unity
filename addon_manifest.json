@@ -9,11 +9,11 @@
     "category": "Import-Export",
     "location": "View3D > Sidebar > Texture Export",
     "warning": "",
-    "doc_url": "https://github.com/your-username/blender-texture-exporter/blob/main/README.md",
-    "tracker_url": "https://github.com/your-username/blender-texture-exporter/issues",
+    "doc_url": "https://github.com/frankdzh/blender_export_to_unity/blob/main/README.md",
+    "tracker_url": "https://github.com/frankdzh/blender_export_to_unity/issues",
     "support": "COMMUNITY",
     "tags": ["texture", "export", "material", "image"],
-    "download_url": "https://github.com/your-username/blender-texture-exporter/archive/refs/heads/main.zip",
+    "download_url": "https://github.com/frankdzh/blender_export_to_unity/archive/refs/heads/main.zip",
     "install_size": "50KB",
     "dependencies": [],
     "changelog": {
@@ -27,8 +27,8 @@
         ]
     },
     "screenshots": [
-        "https://raw.githubusercontent.com/your-username/blender-texture-exporter/main/screenshots/ui_panel.png",
-        "https://raw.githubusercontent.com/your-username/blender-texture-exporter/main/screenshots/export_dialog.png"
+        "https://raw.githubusercontent.com/frankdzh/blender_export_to_unity/main/screenshots/ui_panel.png",
+        "https://raw.githubusercontent.com/frankdzh/blender_export_to_unity/main/screenshots/export_dialog.png"
     ],
     "license": "GPL-3.0",
     "files": {

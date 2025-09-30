@@ -16,8 +16,8 @@ import tempfile
 import shutil
 from urllib.request import urlretrieve
 
-# 插件下载URL（替换为实际的下载链接）
-DOWNLOAD_URL = "https://github.com/your-username/blender-texture-exporter/archive/refs/heads/main.zip"
+# 插件下载URL（指向目标仓库）
+DOWNLOAD_URL = "https://github.com/frankdzh/blender_export_to_unity/archive/refs/heads/main.zip"
 ADDON_NAME = "texture_exporter"
 
 def install_texture_exporter():

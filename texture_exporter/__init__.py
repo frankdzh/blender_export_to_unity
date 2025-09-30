@@ -6,7 +6,7 @@ bl_info = {
     "location": "View3D > Sidebar > Texture Export",
     "description": "Export textures from selected and visible objects with UI and history",
     "warning": "",
-    "doc_url": "",
+    "doc_url": "https://github.com/frankdzh/blender_export_to_unity#readme",
     "category": "Import-Export",
 }
 

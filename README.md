@@ -43,10 +43,10 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/blender-texture-exporter.git
+git clone https://github.com/frankdzh/blender_export_to_unity.git
 
 # 复制到Blender插件目录
-cp -r blender-texture-exporter/texture_exporter ~/.config/blender/3.6/scripts/addons/
+cp -r blender_export_to_unity/texture_exporter ~/.config/blender/3.6/scripts/addons/
 ```
 
 ## 使用方法
@@ -171,9 +171,9 @@ A: 确保导出目录有写入权限，图像数据有效
 
 ## 支持
 
-- 🐛 [报告Bug](https://github.com/your-username/blender-texture-exporter/issues)
-- 💡 [功能建议](https://github.com/your-username/blender-texture-exporter/issues)
-- 📖 [文档](https://github.com/your-username/blender-texture-exporter/wiki)
+- 🐛 [报告Bug](https://github.com/frankdzh/blender_export_to_unity/issues)
+- 💡 [功能建议](https://github.com/frankdzh/blender_export_to_unity/issues)
+- 📖 [文档](https://github.com/frankdzh/blender_export_to_unity/wiki)
 
 ## 致谢
 

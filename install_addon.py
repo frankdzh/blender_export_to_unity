@@ -18,7 +18,7 @@ from urllib.error import URLError
 # 插件信息
 ADDON_NAME = "texture_exporter"
 ADDON_VERSION = "1.0.0"
-GITHUB_REPO = "your-username/blender-texture-exporter"  # 替换为实际的GitHub仓库
+GITHUB_REPO = "frankdzh/blender_export_to_unity"
 DOWNLOAD_URL = f"https://github.com/{GITHUB_REPO}/archive/refs/heads/main.zip"
 
 class TextureExporterInstaller:

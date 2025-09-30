@@ -182,3 +182,16 @@ A: 确保导出目录有写入权限，图像数据有效
 ---
 
 *"工欲善其事，必先利其器" - 《论语·卫灵公》*
+### 方法四：下载 ZIP 并从磁盘安装（你提到的方式）
+
+选项 A：从仓库发布页下载
+- 前往仓库 Releases 页面下载 `texture_exporter.zip`
+- 在 Blender 打开 `Edit > Preferences > Add-ons > Install...`
+- 选择下载的 `texture_exporter.zip` 完成安装
+
+选项 B：本地打包生成 ZIP
+- 在仓库根目录运行：
+  - `python pack_addon.py`
+- 将生成的 `dist/texture_exporter.zip` 用 Blender 的 `Install...` 安装
+
+注意：ZIP 内应为顶层目录 `texture_exporter/`（包含 `__init__.py`），否则 Blender 可能无法识别。

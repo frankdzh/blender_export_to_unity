@@ -53,7 +53,7 @@ class TextureExporterPreferences(AddonPreferences):
             for i, item in enumerate(self.export_history):
                 row = box.row()
                 row.label(text=f"{i+1}. {item.path}")
-                op = row.operator("texture_exporter.remove_history", text="", icon='X')
+                op = row.operator("texture_exporter.remove_history", text="删除")
                 op.index = i
     
     def add_to_history(self, path):

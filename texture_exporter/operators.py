@@ -1,7 +1,7 @@
 import bpy
 import os
 from bpy.types import Operator
-from bpy.props import StringProperty
+from bpy.props import StringProperty, IntProperty
 from bpy_extras.io_utils import ExportHelper
 
 def _export_textures_core(self, context, export_dir):

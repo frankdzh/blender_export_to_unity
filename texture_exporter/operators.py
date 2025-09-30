@@ -117,7 +117,7 @@ class TEXTURE_EXPORTER_OT_use_history(Operator):
     bl_label = "使用此历史记录导出"
     bl_description = "使用选定的历史记录路径导出纹理"
 
-    index: IntProperty()
+    index: IntProperty(default=0)
 
     def execute(self, context):
         prefs = context.preferences.addons[__package__].preferences

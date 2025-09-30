@@ -23,6 +23,7 @@ class TEXTURE_EXPORTER_PT_main_panel(Panel):
             
             # 显示当前目录
             box = layout.box()
+            box.label(text="导出历史:")
             box.label(text="当前导出目录:")
             box.label(text=prefs.export_directory)
         
@@ -30,7 +31,7 @@ class TEXTURE_EXPORTER_PT_main_panel(Panel):
         if prefs.export_history:
             layout.separator()
             box = layout.box()
-            box.label(text="导出历史:")
+
             
             for i, item in enumerate(prefs.export_history):
                 row = box.row(align=True)
